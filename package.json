@@ -2,7 +2,7 @@
   "name": "vscode-gocyclo",
   "displayName": "vscode-gocyclo",
   "description": "vscode-gocyclo shows cyclomatic complexities of functions in Go source code using gocyclo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -19,11 +19,12 @@
   "icon": "images/icon.png",
   "publisher": "hiroakis",
   "license": "MIT",
-  "activationEvents": ["onLanguage:go"],
+  "activationEvents": [
+    "onLanguage:go"
+  ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-    ]
+    "commands": []
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
